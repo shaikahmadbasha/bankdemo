@@ -1,0 +1,72 @@
+<div class="container pad-top">
+  <table class="table shipwrecktable">
+      <tr>
+          <td><h3>Details for {{aircrafts.name}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Aircraft Id</td>
+          <td>{{aircrafts.aircraft_id}}</td>
+      </tr>
+      <tr>
+          <td>Aircraft Abbreviation</td>
+          <td>{{aircrafts.aircraft_abbr}}</td>
+      </tr>
+      <tr>
+          <td>Aircraft Name</td>
+          <td>{{aircrafts.aircraft_name}}</td>
+      </tr>
+      <tr>
+          <td>Aircraft Landing Roll Out</td>
+          <td>{{aircrafts.landing_roll_out}}</td>
+      </tr>
+      <tr>
+          <td>Aircraft Manufacture</td>
+          <td>{{aircrafts.manufacturer}}</td>
+      </tr>
+      <tr>
+          <td>Maximum Cruising Speed</td>
+          <td>{{aircrafts.max_cruise_speed}}</td>
+      </tr>
+      <tr>
+          <td>Maximum Range Speed</td>
+          <td>{{aircrafts.max_range_speed}}</td>
+      </tr>
+      
+      <tr>
+          <td>Normal Cruising Speed</td>
+          <td>{{aircrafts.norm_cruise_speed}}</td>
+      </tr>
+      
+      <tr>
+          <td>Range of the Aircraft</td>
+          <td>{{aircrafts.aircraft_range}}</td>
+      </tr>
+      
+      
+       <tr>
+          <td>Rate of Climb</td>
+          <td>{{aircrafts.rate_of_climb}}</td>
+      </tr>
+      
+      <tr>
+          <td>Service Ceiling</td>
+          <td>{{aircrafts.service_ceiling}}</td>
+      </tr>
+      
+      
+       <tr>
+          <td>Stall Speed</td>
+          <td>{{aircrafts.stall_speed}}</td>
+      </tr>
+      
+      
+       <tr>
+          <td>Take Off  roll</td>
+          <td>{{aircrafts.takeoff_roll}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editAircraft({id:aircrafts.aircraft_id})">Edit</a>
+  </div>
+</div>
